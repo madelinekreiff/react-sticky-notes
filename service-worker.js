@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://madelinekreiff.github.io/csb-606wb/precache-manifest.b846ca725d3b64115821f7314d010953.js"
+  "https://madelinekreiff.github.io/react-sticky-notes/precache-manifest.b846ca725d3b64115821f7314d010953.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://madelinekreiff.github.io/csb-606wb/index.html", {
+workbox.routing.registerNavigationRoute("https://madelinekreiff.github.io/react-sticky-notes/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
